@@ -32,9 +32,9 @@
   <header>
     <h1 class="text-center text-2xl my-2 italic">Swooooosh</h1>
   </header>
-  <input type="text" name="keyword" id="keyword" class="block w-96 mx-auto mb-4 font-monot border p-1 text-center" autofocus bind:value={keyword} on:input={search} on:keydown={handleKeyDown}>
+  <input type="text" name="keyword" id="keyword" class="block w-96 mx-auto mb-4 font-monot border p-1 text-center rounded" autofocus bind:value={keyword} on:input={search} on:keydown={handleKeyDown}>
   {#if sites.length > 0}
-    <ul class="border p-4 mb-2">
+    <ul class="border p-4 mb-2 rounded">
       {#each sites as site}
         <li class="flex">
           <a
