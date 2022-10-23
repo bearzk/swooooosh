@@ -40,4 +40,16 @@ export const data = [
     keyword: 'lb',
     category: ['read',]
   },
+  {
+    url: 'https://dev-tools.deta.dev/ulid',
+    name: 'ulid',
+    keyword: 'ulid',
+    category: ['tools',]
+  },
+  {
+    url: 'https://dev-tools.deta.dev/lorem',
+    name: 'lorem',
+    keyword: 'lorem',
+    category: ['tools',]
+  },
 ]
