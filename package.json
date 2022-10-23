@@ -1,8 +1,13 @@
 {
-  "name": "nav",
+  "name": "swooooosh",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "author": {
+    "name": "@bearzk",
+    "email": "kaizhang@duck.com",
+    "url": "https://www.kaizhang.dev/"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -15,5 +20,6 @@
     "svelte": "^3.49.0",
     "tailwindcss": "^3.2.1",
     "vite": "^3.1.0"
-  }
+  },
+  "license": "MIT"
 }
