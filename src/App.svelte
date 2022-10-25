@@ -22,6 +22,7 @@
     if (e.code === 'Escape') {
       keyword = ""
       sites = [...data]
+      document.getElementById('keyword').focus()
     }
   }
 </script>
