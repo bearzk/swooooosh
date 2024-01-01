@@ -1,5 +1,5 @@
 export const handle = '@bearzk'
-export const handleUrl = 'https://twitter.com/bearzk'
+export const handleUrl = 'https://mastodon.social/@bearzk'
 
 export const data = [
   {

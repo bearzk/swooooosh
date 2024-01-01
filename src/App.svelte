@@ -1,5 +1,5 @@
 <script>
-  import { author, data } from '../config'
+  import { data, handle, handleUrl } from '../config'
 
   let sites = [...data]
   let keyword = ""
@@ -50,4 +50,4 @@
   {/if}
 </main>
 
-<p class="w-96 mx-auto text-center">built with <span class="text-red-600">&#9829;</span> by <a href="{author.url}">{author.handle}</a></p>
+<p class="w-96 mx-auto text-center">built with <span class="text-red-600">&#9829;</span> by <a href="{handleUrl}">{handle}</a></p>
