@@ -39,24 +39,6 @@ export const data = [
     category: ['read',]
   },
   {
-    url: 'https://dev-tools.deta.dev/ulid',
-    name: 'ulid',
-    keyword: 'ulid',
-    category: ['tools',]
-  },
-  {
-    url: 'https://dev-tools.deta.dev/lorem',
-    name: 'lorem',
-    keyword: 'lorem',
-    category: ['tools',]
-  },
-  {
-    url: 'https://web.getmatter.com/list/queue',
-    name: 'matter',
-    keyword: 'mat',
-    category: ['read',]
-  },
-  {
     url: 'https://www.fool.com/',
     name: 'fool',
     keyword: 'fool',
