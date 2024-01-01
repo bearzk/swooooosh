@@ -1,7 +1,5 @@
-export const author = {
-  handle: '@bearzk',
-  url: 'https://twitter.com/bearzk',
-}
+export const handle = '@bearzk'
+export const handleUrl = 'https://twitter.com/bearzk'
 
 export const data = [
   {
@@ -58,4 +56,10 @@ export const data = [
     keyword: 'mat',
     category: ['read',]
   },
+  {
+    url: 'https://www.fool.com/',
+    name: 'fool',
+    keyword: 'fool',
+    category: ['invest', 'news', ]
+  }
 ]
