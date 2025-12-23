@@ -21,10 +21,16 @@ export const data = [
     category: ["dev", "blog"],
   },
   {
+    url: "https://simonwillison.net/",
+    name: "simon willison",
+    keyword: "sw",
+    category: ["dev", "blog"],
+  },
+  {
     url: "https://theburningmonk.com/",
     name: "burning monk",
     keyword: "bm",
-    category: ["dev", "serverless"],
+    category: ["dev", "serverless", "blog"],
   },
   {
     url: "https://aosabook.org/en/index.html",
@@ -36,13 +42,13 @@ export const data = [
     url: "https://lucumr.pocoo.org/",
     name: "Armin Ronacher's Thoughts and Writings",
     keyword: "ro",
-    category: ["dev", "llm"],
+    category: ["dev", "blog"],
   },
   {
     url: "https://eblog.fly.dev/index.html",
     name: "Software articles by efron licht",
     keyword: "eb",
-    category: ["dev", "llm"],
+    category: ["dev", "blog"],
   },
   {
     url: "https://offbynone.io/",
