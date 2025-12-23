@@ -15,6 +15,12 @@ export const data = [
     category: ["dev", "news"],
   },
   {
+    url: "https://diff.blog/",
+    name: "diff",
+    keyword: "d",
+    category: ["dev", "blog"],
+  },
+  {
     url: "https://theburningmonk.com/",
     name: "burning monk",
     keyword: "bm",
@@ -29,13 +35,13 @@ export const data = [
   {
     url: "https://lucumr.pocoo.org/",
     name: "Armin Ronacher's Thoughts and Writings",
-    keyword: "ronacher",
+    keyword: "ro",
     category: ["dev", "llm"],
   },
   {
     url: "https://eblog.fly.dev/index.html",
     name: "Software articles by efron licht",
-    keyword: "eblog",
+    keyword: "eb",
     category: ["dev", "llm"],
   },
   {
