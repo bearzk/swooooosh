@@ -25,6 +25,27 @@
       document.getElementById('keyword').focus()
     }
   }
+
+  const highlightMatches = (name, keyword) => {
+    if (!keyword) return name
+
+    const keywordLower = keyword.toLowerCase()
+    let keywordIndex = 0
+    let result = ''
+
+    for (let i = 0; i < name.length; i++) {
+      const char = name[i]
+      if (keywordIndex < keywordLower.length &&
+          char.toLowerCase() === keywordLower[keywordIndex]) {
+        result += `<mark class="bg-yellow-200">${char}</mark>`
+        keywordIndex++
+      } else {
+        result += char
+      }
+    }
+
+    return result
+  }
 </script>
 
 <svelte:window on:keydown={handleEsc}/>
@@ -42,8 +63,8 @@
             href="{site.url}"
             target="_blank"
             rel="noreferrer"
-            class="flex-1"
-          >{site.name}</a>
+            class="flex-1 hover:text-[rgb(200,100,100)]"
+          >{@html highlightMatches(site.name, keyword)}</a>
         </li>
       {/each}
     </ul>
