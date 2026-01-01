@@ -34,7 +34,7 @@ export const data = [
   },
   {
     url: "https://aosabook.org/en/index.html",
-    name: "The Architecture of Open Source Applications",
+    name: "AOSA",
     keyword: "aosa",
     category: ["book", "architecture"],
   },
