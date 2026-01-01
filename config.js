@@ -39,18 +39,6 @@ export const data = [
     category: ["book", "architecture"],
   },
   {
-    url: "https://lucumr.pocoo.org/",
-    name: "Armin Ronacher's Thoughts and Writings",
-    keyword: "ro",
-    category: ["dev", "blog"],
-  },
-  {
-    url: "https://eblog.fly.dev/index.html",
-    name: "Software articles by efron licht",
-    keyword: "eb",
-    category: ["dev", "blog"],
-  },
-  {
     url: "https://offbynone.io/",
     name: "off by none",
     keyword: "obn",
